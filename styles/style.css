@@ -411,7 +411,7 @@
   }
 
   .header {
-    min-height: 658px;
+    min-height: 668px;
     grid-template-rows: auto auto 38% 27%;
     padding: 0;
   }
