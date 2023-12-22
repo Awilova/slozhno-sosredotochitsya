@@ -458,7 +458,7 @@
   .distraction__reasons {
     display: flex;
     flex-wrap: wrap;
-    flex-wrap: 1;
+    flex-grow: 1;
   }
 
   .distraction__objects__heading {
@@ -468,13 +468,14 @@
   .advice {
     display: flex;
     flex-wrap: wrap;
-    flex-wrap: 1;
+    flex-grow: 1;
   }
 
   .advice__picture__container {
     display: flex;
     flex-wrap: wrap;
-    flex-wrap: 1;
+    flex-grow: 1;
+
     gap: 7px;
   }
 
