@@ -407,11 +407,11 @@
 @media (max-width: 376px) {
   .page {
     padding: 10px;
-    gap: 50px;
+    gap: 40px;
   }
 
   .header {
-    min-height: 668px;
+    min-height: 658px;
     grid-template-rows: auto auto 38% 27%;
     padding: 0;
   }
