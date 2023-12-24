@@ -7,6 +7,8 @@
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
   --title-color: #db00ff;
+  --shadow-title-size: 4px;
+  --shadow-other-size: 2px;
   --accent-color: #ff0070;
   --corner-color: #ff0070;
   --button-text-color: #ff0070;
@@ -25,6 +27,6 @@
   );
   --accent-title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-text-font-size: 1.125rem;
-  --main-font-family: IBM Plex Mono;
+  --main-font-family: "IBM Plex Mono";
   --visibility: visible;
 }
