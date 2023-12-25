@@ -372,9 +372,9 @@
   }
 
   .header {
-    min-height: 648px;
+    min-height: 628px;
     grid-template-rows: 1fr auto 1fr 1fr;
-    padding: 0 0 10px 0;
+    padding: 0;
   }
 
   .decorated-zone::before {
