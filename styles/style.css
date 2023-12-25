@@ -460,8 +460,12 @@
     margin-block-end: 10px;
   }
 
+  .footer__title {
+    letter-spacing: -0.02em;
+  }
+
   .footer {
-    min-height: 667px;
+    min-height: 647px;
   }
 
 }
