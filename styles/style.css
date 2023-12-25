@@ -24,7 +24,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 768px;
-  /*height: 100vh;*/
+  height: 100vh;
   position: relative;
 }
 
@@ -138,7 +138,8 @@
 
 .header__title {
   color: var(--title-color);
-  text-shadow: var(--shadow-title-size) var(--shadow-title-size) 0 var(--accent-color);
+  text-shadow: var(--shadow-title-size) var(--shadow-title-size) 0
+    var(--accent-color);
   font-family: var(--main-font-family, monospace);
   font-size: var(--accent-title-font-size-desktop);
   font-style: normal;
@@ -190,7 +191,8 @@
 .link {
   text-decoration: none;
   color: var(--link-text-color);
-  text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0 var(--link-shadow-color);
+  text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0
+    var(--link-shadow-color);
   font-family: var(--main-font-family, monospace);
   font-size: var(--main-text-font-size, 18px);
   font-style: normal;
@@ -305,7 +307,8 @@
 
 .footer__title {
   color: var(--title-color);
-  text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px var(--accent-color);
+  text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px
+    var(--accent-color);
   font-family: var(--main-font-family, monospace);
   font-size: var(--accent-title-font-size-desktop);
   font-style: normal;
@@ -317,13 +320,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /*height: 100vh;*/
+  height: 100vh;
   min-height: 768px;
   position: relative;
 }
 
 @media (768px <= width < 1024px) {
-
   .header {
     min-height: 1024px;
     grid-template-rows: 1fr auto auto 45%;
@@ -341,7 +343,8 @@
   }
 
   .header__title {
-    text-shadow: var(--shadow-title-size) var(--shadow-title-size) 0 var(--link-shadow-color);
+    text-shadow: var(--shadow-title-size) var(--shadow-title-size) 0
+      var(--link-shadow-color);
   }
 
   .distraction__objects__lots {
@@ -356,7 +359,8 @@
   }
 
   .footer__title {
-    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px var(--link-shadow-color);
+    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px
+      var(--link-shadow-color);
   }
 
   .footer {
@@ -365,7 +369,6 @@
 }
 
 @media (width < 767px) {
-  
   .page {
     gap: 29px;
   }
@@ -390,7 +393,8 @@
   .header__title {
     font-size: var(--accent-title-font-size-mobile);
     align-self: center;
-    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px var(--link-shadow-color);
+    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px
+      var(--link-shadow-color);
   }
 
   .header__text {
@@ -464,7 +468,8 @@
 
   .footer__title {
     letter-spacing: -0.02em;
-    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px var(--link-shadow-color);
+    text-shadow: var(--shadow-other-size) var(--shadow-other-size) 0px
+      var(--link-shadow-color);
   }
 
   .footer {
@@ -472,5 +477,4 @@
     padding: 10px;
     margin: 0;
   }
-
 }
