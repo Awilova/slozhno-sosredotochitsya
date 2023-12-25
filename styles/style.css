@@ -24,7 +24,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 768px;
-  /*height: 100vh;*/
+  height: 100vh;
   position: relative;
 }
 
@@ -461,8 +461,7 @@
   }
 
   .footer {
-    min-height: 647px;
-
+    min-height: 667px;
   }
 
 }
